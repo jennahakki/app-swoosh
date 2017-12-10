@@ -177,6 +177,9 @@
                                 <state key="normal" title="Next">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="onTappedNext:" destination="QG3-wv-BLB" eventType="touchUpInside" id="jHT-8G-AMH"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aPQ-Nf-15B">
                                 <rect key="frame" x="0.0" y="10" width="72" height="54"/>
@@ -212,6 +215,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="DUF-Dd-pAk"/>
                     </view>
+                    <connections>
+                        <segue destination="19H-St-4NM" kind="show" identifier="skillVCSegue" id="MtG-V9-nXv"/>
+                    </connections>
                 </viewController>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YaJ-JZ-2vL" customClass="BorderButton" customModule="app_swoosh" customModuleProvider="target">
                     <rect key="frame" x="0.0" y="0.0" width="343" height="50"/>
